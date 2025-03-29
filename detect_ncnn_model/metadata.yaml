@@ -1,0 +1,21 @@
+description: Ultralytics detect model trained on /content/drive/MyDrive/Driver-drowsiness3/data.yaml
+author: Ultralytics
+date: '2025-03-26T03:59:56.350240'
+version: 8.3.96
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Eyes_closed
+  1: Eyes_open
+  2: Normal_face
+  3: Talking
+  4: Yawning
+args:
+  batch: 1
+  half: false
